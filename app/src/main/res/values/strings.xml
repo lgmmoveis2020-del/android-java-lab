@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="pt">
+    <!-- Geral -->
+    <string name="app_name">Android Java Lab</string>
+    <string name="app_tagline">Oito laboratórios interativos escritos em Java puro.</string>
+    <string name="action_about">Sobre</string>
+    <string name="about_title">Android Java Lab</string>
+    <string name="about_message">Versão %1$s · %2$d laboratórios\n\nMotores em Java puro (módulo core, 100%% testável na JVM) com uma interface Material 3 por cima. Código aberto sob a licença MIT.</string>
+    <string name="action_clear">Limpar</string>
+    <string name="action_pause">Pausar</string>
+    <string name="action_play">Rodar</string>
+    <string name="action_step">Passo</string>
+    <string name="action_random">Aleatório</string>
+    <string name="action_reset">Reiniciar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_undo">Desfazer</string>
+    <string name="value_none">—</string>
+
+    <!-- Catálogo -->
+    <string name="lab_particles_title">Partículas</string>
+    <string name="lab_particles_desc">Física 2D com gravidade, colisões elásticas e acelerômetro.</string>
+    <string name="lab_life_title">Jogo da Vida</string>
+    <string name="lab_life_desc">Autômato celular de Conway com padrões clássicos e borda toroidal.</string>
+    <string name="lab_calculator_title">Calculadora</string>
+    <string name="lab_calculator_desc">Parser de expressões com precedência, funções, constantes e histórico.</string>
+    <string name="lab_primes_title">Primos</string>
+    <string name="lab_primes_desc">Crivo segmentado em segundo plano e teste de Miller–Rabin.</string>
+    <string name="lab_maze_title">Labirinto</string>
+    <string name="lab_maze_desc">Geração por backtracking e solução com busca em largura animada.</string>
+    <string name="lab_sort_title">Ordenação</string>
+    <string name="lab_sort_desc">Seis algoritmos gravados passo a passo e reproduzidos em barras.</string>
+    <string name="lab_notes_title">Notas</string>
+    <string name="lab_notes_desc">CRUD com repositório, codec JSON próprio e desfazer de exclusão.</string>
+    <string name="lab_sensors_title">Sensores</string>
+    <string name="lab_sensors_desc">Leitura ao vivo de todos os sensores e um nível de bolha.</string>
+
+    <!-- Partículas -->
+    <string name="particles_stats">%1$d partículas · %2$s fps · E = %3$s</string>
+    <string name="particles_hint">Toque na tela para soltar partículas</string>
+    <string name="particles_sensor_gravity">Gravidade pelo acelerômetro</string>
+    <string name="particles_collisions">Colisões entre partículas</string>
+    <string name="particles_bouncy">Paredes saltitantes</string>
+    <string name="particles_burst">Explosão</string>
+
+    <!-- Jogo da Vida -->
+    <string name="life_status">Geração %1$d · população %2$d</string>
+    <string name="life_speed_label">%1$d gerações/s</string>
+    <string name="life_pattern">Padrão</string>
+    <string name="life_speed">Velocidade</string>
+
+    <!-- Calculadora -->
+    <string name="calc_history_cleared">Histórico limpo</string>
+    <string name="calc_history_empty">Digite uma expressão, por exemplo 2^10 ou sqrt(2)*pi.\nUse ans para o último resultado.</string>
+    <string name="calc_expression_hint">Expressão</string>
+    <string name="calc_error_at">%1$s (posição %2$d)</string>
+    <string name="calc_key_backspace">Apagar</string>
+    <string name="calc_key_clear">Limpar tudo</string>
+    <string name="calc_key_equals">Igual</string>
+
+    <!-- Primos -->
+    <string name="primes_section_sieve">Crivo segmentado</string>
+    <string name="primes_intro">Conta todos os primos até o limite usando um crivo de Eratóstenes segmentado, numa thread de fundo e com cancelamento.</string>
+    <string name="primes_preset_1">1 milhão</string>
+    <string name="primes_preset_2">10 milhões</string>
+    <string name="primes_preset_3">100 milhões</string>
+    <string name="primes_preset_4">1 bilhão</string>
+    <string name="primes_limit_hint">Limite</string>
+    <string name="primes_default_limit" translatable="false">1000000</string>
+    <string name="primes_start">Contar</string>
+    <string name="primes_cancelled">Cancelado</string>
+    <string name="primes_done">Concluído</string>
+    <string name="primes_idle_hint">Escolha um limite e toque em Contar.</string>
+    <string name="primes_running">%1$d%% · %2$s primos até agora</string>
+    <string name="primes_result_limit">Primos até %1$s</string>
+    <string name="primes_result_cancelled">Parcial (cancelado) até %1$s</string>
+    <string name="primes_largest">Maior primo</string>
+    <string name="primes_elapsed">Tempo</string>
+    <string name="primes_error_invalid">Digite um número inteiro ≥ 2</string>
+    <string name="primes_error_too_big">Máximo permitido: %1$s</string>
+    <string name="primes_section_check">É primo?</string>
+    <string name="primes_check_intro">Teste determinístico de Miller–Rabin para qualquer número até 2⁶³ − 1.</string>
+    <string name="primes_check_hint">Número</string>
+    <string name="primes_default_check" translatable="false">9007199254740881</string>
+    <string name="primes_check_button">Verificar</string>
+    <string name="primes_check_prime">%1$s é primo · %2$s µs</string>
+    <string name="primes_check_composite">%1$s não é primo · %2$s µs</string>
+
+    <!-- Labirinto -->
+    <string name="maze_size">Tamanho</string>
+    <string name="maze_size_label">%1$d × %2$d</string>
+    <string name="maze_generate">Novo labirinto</string>
+    <string name="maze_solve">Resolver</string>
+    <string name="maze_stats_generated">%1$d × %2$d · %3$s células</string>
+    <string name="maze_stats_solving">Resolvendo… BFS levou %1$s</string>
+    <string name="maze_stats_solved">Caminho de %1$d passos · %2$s células visitadas (%3$d%%)</string>
+
+    <!-- Ordenação -->
+    <string name="sort_algorithm">Algoritmo</string>
+    <string name="sort_algorithm_info">%1$s · %2$s · %3$s passos</string>
+    <string name="sort_stable">estável</string>
+    <string name="sort_unstable">instável</string>
+    <string name="sort_size">Elementos</string>
+    <string name="sort_size_label">%1$d elementos</string>
+    <string name="sort_speed">Velocidade</string>
+    <string name="sort_speed_label">%1$d passos/quadro</string>
+    <string name="sort_shuffle">Embaralhar</string>
+    <string name="sort_stats">%1$s comparações · %2$s escritas · %3$d%%</string>
+
+    <!-- Notas -->
+    <string name="notes_new">Nova nota</string>
+    <string name="notes_edit">Editar nota</string>
+    <string name="notes_title_hint">Título</string>
+    <string name="notes_body_hint">Conteúdo</string>
+    <string name="notes_empty">Nenhuma nota ainda.\nToque em + para criar a primeira.</string>
+    <string name="notes_count_one">1 nota</string>
+    <string name="notes_count_other">%1$d notas</string>
+    <string name="notes_deleted">“%1$s” excluída</string>
+    <string name="notes_discarded_empty">Nota vazia descartada</string>
+    <string name="notes_clear_all">Apagar todas</string>
+    <string name="notes_clear_all_confirm">Apagar todas as notas? Esta ação não pode ser desfeita.</string>
+
+    <!-- Sensores -->
+    <string name="sensors_summary">Mostrando %1$d de %2$d sensores do aparelho</string>
+    <string name="sensors_none">Nenhum sensor disponível neste aparelho (ou emulador sem sensores).</string>
+    <string name="sensors_waiting">aguardando…</string>
+    <string name="sensors_meta">%1$s · %2$s · máx %3$s</string>
+    <string name="sensors_rate">%1$d eventos/s</string>
+    <string name="sensors_tilt">inclinação %1$s°</string>
+    <string name="sensors_unit_acceleration">m/s²</string>
+    <string name="sensors_unit_gyro">rad/s</string>
+    <string name="sensors_unit_magnetic">µT</string>
+    <string name="sensors_unit_light">lux</string>
+    <string name="sensors_unit_distance">cm</string>
+    <string name="sensors_unit_pressure">hPa</string>
+    <string name="sensors_unit_temperature">°C</string>
+    <string name="sensors_unit_humidity">umidade relativa</string>
+    <string name="sensors_unit_raw">valor bruto</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+
+    <application
+        android:name=".LabApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidLab"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".labs.particles.ParticleLabActivity"
+            android:exported="false"
+            android:label="@string/lab_particles_title"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".labs.life.LifeLabActivity"
+            android:exported="false"
+            android:label="@string/lab_life_title"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".labs.calculator.CalculatorLabActivity"
+            android:exported="false"
+            android:label="@string/lab_calculator_title"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <activity
+            android:name=".labs.primes.PrimeLabActivity"
+            android:exported="false"
+            android:label="@string/lab_primes_title"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <activity
+            android:name=".labs.maze.MazeLabActivity"
+            android:exported="false"
+            android:label="@string/lab_maze_title"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".labs.sort.SortLabActivity"
+            android:exported="false"
+            android:label="@string/lab_sort_title"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".labs.notes.NotesLabActivity"
+            android:exported="false"
+            android:label="@string/lab_notes_title"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".labs.sensors.SensorLabActivity"
+            android:exported="false"
+            android:label="@string/lab_sensors_title"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>
