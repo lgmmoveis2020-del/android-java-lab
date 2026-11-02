@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <string name="app_name">Android Java Lab</string>
+    <string name="app_tagline">Eight interactive labs written in pure Java.</string>
+    <string name="action_about">About</string>
+    <string name="about_title">Android Java Lab</string>
+    <string name="about_message">Version %1$s · %2$d labs\n\nPure-Java engines (core module, 100%% testable on the JVM) with a Material 3 UI on top. Open source under the MIT license.</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_play">Play</string>
+    <string name="action_step">Step</string>
+    <string name="action_random">Random</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_undo">Undo</string>
+    <string name="value_none">—</string>
+
+    <!-- Catalog -->
+    <string name="lab_particles_title">Particles</string>
+    <string name="lab_particles_desc">2D physics with gravity, elastic collisions and the accelerometer.</string>
+    <string name="lab_life_title">Game of Life</string>
+    <string name="lab_life_desc">Conway\'s cellular automaton with classic patterns and a toroidal edge.</string>
+    <string name="lab_calculator_title">Calculator</string>
+    <string name="lab_calculator_desc">Expression parser with precedence, functions, constants and history.</string>
+    <string name="lab_primes_title">Primes</string>
+    <string name="lab_primes_desc">Background segmented sieve and a Miller–Rabin primality test.</string>
+    <string name="lab_maze_title">Maze</string>
+    <string name="lab_maze_desc">Backtracking generation and an animated breadth-first solution.</string>
+    <string name="lab_sort_title">Sorting</string>
+    <string name="lab_sort_desc">Six algorithms recorded step by step and replayed as bars.</string>
+    <string name="lab_notes_title">Notes</string>
+    <string name="lab_notes_desc">CRUD with a repository, hand-written JSON codec and undo delete.</string>
+    <string name="lab_sensors_title">Sensors</string>
+    <string name="lab_sensors_desc">Live readings from every sensor plus a bubble level.</string>
+
+    <!-- Particles -->
+    <string name="particles_stats">%1$d particles · %2$s fps · E = %3$s</string>
+    <string name="particles_hint">Tap the screen to release particles</string>
+    <string name="particles_sensor_gravity">Gravity from accelerometer</string>
+    <string name="particles_collisions">Particle collisions</string>
+    <string name="particles_bouncy">Bouncy walls</string>
+    <string name="particles_burst">Burst</string>
+
+    <!-- Game of Life -->
+    <string name="life_status">Generation %1$d · population %2$d</string>
+    <string name="life_speed_label">%1$d gen/s</string>
+    <string name="life_pattern">Pattern</string>
+    <string name="life_speed">Speed</string>
+
+    <!-- Calculator -->
+    <string name="calc_history_cleared">History cleared</string>
+    <string name="calc_history_empty">Type an expression such as 2^10 or sqrt(2)*pi.\nUse ans for the last result.</string>
+    <string name="calc_expression_hint">Expression</string>
+    <string name="calc_error_at">%1$s (position %2$d)</string>
+    <string name="calc_key_backspace">Backspace</string>
+    <string name="calc_key_clear">Clear all</string>
+    <string name="calc_key_equals">Equals</string>
+
+    <!-- Primes -->
+    <string name="primes_section_sieve">Segmented sieve</string>
+    <string name="primes_intro">Counts every prime up to the limit with a segmented sieve of Eratosthenes, on a background thread with cancellation.</string>
+    <string name="primes_preset_1">1 million</string>
+    <string name="primes_preset_2">10 million</string>
+    <string name="primes_preset_3">100 million</string>
+    <string name="primes_preset_4">1 billion</string>
+    <string name="primes_limit_hint">Limit</string>
+    <string name="primes_start">Count</string>
+    <string name="primes_cancelled">Cancelled</string>
+    <string name="primes_done">Done</string>
+    <string name="primes_idle_hint">Pick a limit and tap Count.</string>
+    <string name="primes_running">%1$d%% · %2$s primes so far</string>
+    <string name="primes_result_limit">Primes up to %1$s</string>
+    <string name="primes_result_cancelled">Partial (cancelled) up to %1$s</string>
+    <string name="primes_largest">Largest prime</string>
+    <string name="primes_elapsed">Time</string>
+    <string name="primes_error_invalid">Enter an integer ≥ 2</string>
+    <string name="primes_error_too_big">Maximum allowed: %1$s</string>
+    <string name="primes_section_check">Is it prime?</string>
+    <string name="primes_check_intro">Deterministic Miller–Rabin test for any number up to 2⁶³ − 1.</string>
+    <string name="primes_check_hint">Number</string>
+    <string name="primes_check_button">Check</string>
+    <string name="primes_check_prime">%1$s is prime · %2$s µs</string>
+    <string name="primes_check_composite">%1$s is not prime · %2$s µs</string>
+
+    <!-- Maze -->
+    <string name="maze_size">Size</string>
+    <string name="maze_size_label">%1$d × %2$d</string>
+    <string name="maze_generate">New maze</string>
+    <string name="maze_solve">Solve</string>
+    <string name="maze_stats_generated">%1$d × %2$d · %3$s cells</string>
+    <string name="maze_stats_solving">Solving… BFS took %1$s</string>
+    <string name="maze_stats_solved">Path of %1$d steps · %2$s cells visited (%3$d%%)</string>
+
+    <!-- Sorting -->
+    <string name="sort_algorithm">Algorithm</string>
+    <string name="sort_algorithm_info">%1$s · %2$s · %3$s steps</string>
+    <string name="sort_stable">stable</string>
+    <string name="sort_unstable">unstable</string>
+    <string name="sort_size">Elements</string>
+    <string name="sort_size_label">%1$d elements</string>
+    <string name="sort_speed">Speed</string>
+    <string name="sort_speed_label">%1$d steps/frame</string>
+    <string name="sort_shuffle">Shuffle</string>
+    <string name="sort_stats">%1$s comparisons · %2$s writes · %3$d%%</string>
+
+    <!-- Notes -->
+    <string name="notes_new">New note</string>
+    <string name="notes_edit">Edit note</string>
+    <string name="notes_title_hint">Title</string>
+    <string name="notes_body_hint">Content</string>
+    <string name="notes_empty">No notes yet.\nTap + to create the first one.</string>
+    <string name="notes_count_one">1 note</string>
+    <string name="notes_count_other">%1$d notes</string>
+    <string name="notes_deleted">“%1$s” deleted</string>
+    <string name="notes_discarded_empty">Empty note discarded</string>
+    <string name="notes_clear_all">Delete all</string>
+    <string name="notes_clear_all_confirm">Delete all notes? This cannot be undone.</string>
+
+    <!-- Sensors -->
+    <string name="sensors_summary">Showing %1$d of %2$d device sensors</string>
+    <string name="sensors_none">No sensors available on this device (or emulator without sensors).</string>
+    <string name="sensors_waiting">waiting…</string>
+    <string name="sensors_meta">%1$s · %2$s · max %3$s</string>
+    <string name="sensors_rate">%1$d events/s</string>
+    <string name="sensors_tilt">tilt %1$s°</string>
+    <string name="sensors_unit_acceleration">m/s²</string>
+    <string name="sensors_unit_gyro">rad/s</string>
+    <string name="sensors_unit_magnetic">µT</string>
+    <string name="sensors_unit_light">lux</string>
+    <string name="sensors_unit_distance">cm</string>
+    <string name="sensors_unit_pressure">hPa</string>
+    <string name="sensors_unit_temperature">°C</string>
+    <string name="sensors_unit_humidity">relative humidity</string>
+    <string name="sensors_unit_raw">raw value</string>
+</resources>
