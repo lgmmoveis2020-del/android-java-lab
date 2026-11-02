@@ -89,6 +89,5 @@ public class PrimeViewModel extends ViewModel {
     protected void onCleared() {
         cancelled.set(true);
         executor.shutdownNow();
-        super.onCleared();
     }
 }

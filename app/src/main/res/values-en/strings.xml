@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="PluralsCandidate">
     <!-- General -->
     <string name="app_name">Android Java Lab</string>
     <string name="app_tagline">Eight interactive labs written in pure Java.</string>
