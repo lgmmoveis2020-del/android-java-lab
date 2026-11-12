@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FF6750A4</color>
+
+    <!-- Cor de destaque de cada laboratório -->
+    <color name="accent_particles">#FFFF7043</color>
+    <color name="accent_life">#FF43A047</color>
+    <color name="accent_calculator">#FF1E88E5</color>
+    <color name="accent_primes">#FF8E24AA</color>
+    <color name="accent_maze">#FFF4511E</color>
+    <color name="accent_sort">#FF00ACC1</color>
+    <color name="accent_notes">#FFFDD835</color>
+    <color name="accent_sensors">#FFE53935</color>
+
+    <!-- Telas de desenho (sempre escuras, para contraste das cores) -->
+    <color name="lab_canvas_bg">#FF121318</color>
+    <color name="lab_grid_line">#FF2A2C35</color>
+    <color name="lab_grid_line_strong">#FF4A4D5A</color>
+    <color name="hud_text">#FFF5F5F5</color>
+    <color name="hud_background">#B3000000</color>
+
+    <color name="maze_wall">#FFE0E0E0</color>
+    <color name="maze_start">#FF43A047</color>
+    <color name="maze_goal">#FFE53935</color>
+
+    <color name="sort_compare">#FFFFC107</color>
+    <color name="sort_write">#FFE53935</color>
+    <color name="sort_sorted">#FF43A047</color>
+
+    <color name="swipe_delete_bg">#FFB3261E</color>
+</resources>
